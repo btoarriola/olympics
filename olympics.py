@@ -1,8 +1,6 @@
 import codecs
 import pandas as pd
 import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.title('Olympics 🏅')
