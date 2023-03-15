@@ -30,7 +30,7 @@ sidebar = st.sidebar
 
 #para cargar el data set en 500
 
-data = load_data(50)
+data = load_data(500)
 st.subheader("Raw data")
 data_load_state = st.text('esperando dataset')
 st.sidebar.image("logo.png")
