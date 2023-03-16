@@ -92,7 +92,7 @@ datagrafica=load_data(1000)
 
 st.write("\n\nGrafica de dispersion que muestra la relacion entre las medallas ganadas y el año de nacimiento de los competidores.\n Para el grafico se cargaron los primero 1000 registros")
 fig3 = px.scatter(datagrafica, x='athlete_year_birth', y='athlete_medals')
-fig3.update_layout(title='Grafica de Dispersión del Titanic',
+fig3.update_layout(title='Grafica de Dispersión JJOO',
                    xaxis_title='Año de nacimiento',
                    yaxis_title='Medallas')
 st.plotly_chart(fig3)
